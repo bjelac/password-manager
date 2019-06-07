@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Password Manager</string>
+
+    <string name="lbl_setMasterPassword">Установить мастер-пароль</string>
+    <string name="lbl_enterMasterPassword">Войти с мастер-паролем.</string>
+    <string name="lbl_biometricPromptTitle">Биометрический Менеджер паролей</string>
+    <string name="lbl_biometricPromptSubtitle">Аутентификация требуется для продолжения.</string>
+    <string name="lbl_biometricPromptDescription">Это приложение использует биометрическую аутентификацию для защиты ваших данных.</string>
+    <string name="lbl_addFirstItem">Добавить первый элемент</string>
+    <string name="lbl_addNewPasswordLogin">Добавить новый логин</string>
+    <string name="lbl_logIn">Имя\nпользователя:</string>
+    <string name="lbl_LogInPassword">Пароль:</string>
+    <string name="lbl_summary">Инфо:</string>
+    <string name="lbl_logInTag">Тег:</string>
+    <string name="lbl_btn_addTag">Добавить</string>
+    <string name="lbl_addTag">Введите новое имя тега</string>
+    <string name="lbl_confirmDelMessageSummary">Удалить выбранный элемент?</string>
+    <string name="lbl_confirmDelTitleSummary">Удалить элемент со сводкой %s?</string>
+    <string name="lbl_confirmDelYes">Да</string>
+    <string name="lbl_confirmDelNo">Hет</string>
+    <string name="lbl_addNew2FALogin">Добавьте двухфакторную аутентификацию /\nкоды восстановления</string>
+    <string name="lbl_tagFilter">Фильтр тегов:</string>
+    <string name="lbl_tagFilterSelectAll">Показать все</string>
+    <string name="lbl_decryptingDB">Расшифровка базы данных...</string>
+    <string name="lbl_masterPasswordManagement">Управление мастер-паролями</string>
+    <string name="lbl_dataManagement">Управление данными</string>
+    <string name="lbl_backUpDB">Резервные данные</string>
+    <string name="lbl_restoreDB">Восстановить данные</string>
+    <string name="lbl_deleteDB">Стереть все данные</string>
+    <string name="lbl_confirmPopupTitle_deleteDB">Удалить базу данных?</string>
+    <string name="lbl_confirmPopupMessage_deleteDB">Вы уверены, что хотите удалить все логины и коды резервной копии для двухфакторной аутентификации?</string>
+    <string name="lbl_info">О приложении</string>
+    <string name="lbl_btn_showAppInfo">Показать информацию \nо приложении</string>
+    <string name="lbl_btn_cancel">Oтменить</string>
+    <string name="lbl_defaultTag">Неопределен</string>
+    <string name="lbl_tabLogin">Данные</string>
+    <string name="lbl_tab2fa">2ФА</string>
+    <string name="lbl_tabSettings">Hастройки</string>
+    <string name="lbl_infoTitle">Инфо</string>
+    <string name="lbl_btn_reportIssue">Сообщить о проблеме</string>
+    <string name="lbl_btn_supportMe">Поддержите меня</string>
+   <string name="lbl_description1">Безопасно управляйте своими данными с помощью 128 AES шифрования.
+        \n\nНе требуется доступа в интернет! Без рекламы!
+        \n\nВаши данные остаются зашифрованными на вашем устройстве, и вы можете сохранять или восстанавливать резервные копии по своему усмотрению. Пожалуйста, сделайте резервную копию ваших данных соответственно.
+        \n\nРезервные копии не хранятся ни в одном облачном сервисе. Если вы хотите их в облаке, вам нужно загрузить их вручную.
+        \n\nЖурналы приложений не отслеживаются. Так что если у вас есть какие-либо проблемы, пожалуйста, сообщите о них. Попытайтесь описать проблемы полностью.</string>
+    <string name="lbl_description2">Этот проект с открытым исходным кодом. Вы можете найти это на GitHub.</string>
+    <string name="lbl_description3"> Вы можете поддержать меня на https://ko-fi.com/dusko_, если вам это нравится.</string>
+    <string name="lbl_btn_goToGitHub">Показать на GitHub</string>
+    <string name="lbl_keyInfoBackup">Нам нужно, чтобы вы установили новый пароль.
+        \nЭтот пароль не зависит от вашего основного пароля.
+        \nВы не сможете восстановить сохраненную резервную копию без этого пароля.</string>
+    <string name="lbl_keyInfoRestore">Укажите пароль для восстановления резервной копии.
+        \nИнформация: Вы определили это, когда вы создали резервную копию.</string>
+
+    <string name="hint_addTag">Новое имя тега</string>
+    <string name="hint_masterPassword1">Введите главный пароль</string>
+    <string name="hint_setMasterPassword1">Введите новый мастер-пароль</string>
+    <string name="hint_setMasterPassword2">Повторите мастер-пароль</string>
+    <string name="hint_getKey">Введите пароль</string>
+    <string name="hint_setKey">Установить пароль</string>
+    <string name="hint_confirmKey">Повторите пароль</string>
+
+    <string name="btn_signUp">Подписаться</string>
+    <string name="btn_logIn">Авторизоваться</string>
+    <string name="btn_signInWithPassword">Войти с паролем</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_GeneratePassword">Создать \nпароль</string>
+    <string name="btn_changePassword">Изменить мастер-пароль</string>
+
+    <string name="msg_isKeyguardSecure">Защита экрана не включена в настройках.</string>
+    <string name="msg_checkSelfPermission">Разрешение аутентификации по отпечатку пальца не включено!</string>
+    <string name="msg_authenticationError">Аутентификация по отпечатку пальца не активна на вашем устройстве!</string>
+    <string name="msg_authenticationSuccessful">Аутентификация прошла успешно.</string>
+    <string name="msg_authenticationCanceledViaSignal">Аутентификация отменена с помощью сигнала.</string>
+    <string name="msg_authenticationCanceled">Аутентификация отменена.</string>
+    <string name="msg_passwordCanNotBeEmpty">Пароль не может быть пустым!</string>
+    <string name="msg_passwordDoNotMatch">Пароль не совпадает!</string>
+    <string name="msg_wrongPassword">Неправильный пароль. У вас осталось %d испытаний!</string>
+    <string name="msg_securityIncident">Инцидент безопасности! Удаление базы паролей!</string>
+    <string name="msg_userNameFieldRequired">Имя пользователя требуется!</string>
+    <string name="msg_summaryFieldRequired">Резюме и как минимум первые шесть полей обязательны для заполнения.</string>
+    <string name="msg_masterPasswordChanged">Мастер-пароль изменен!</string>
+    <string name="msg_decryptionFailed">Восстановление данных не удалось! Неправильный пароль для расшифровки!</string>
+    <string name="msg_restoringSeceded">Восстановление успешно.</string>
+    <string name="msg_backupSeceded">Резервная копия была успешно сохранена.</string>
+    <string name="msg_allDataDeleted">Все данные удалены.</string>
+    <string name="msg_usernameCopiedToClipboard">Имя пользователя скопировано в буфер обмена.</string>
+    <string name="msg_passwordCopiedToClipboard">Пароль скопирован в буфер обмена.</string>
+
+</resources>

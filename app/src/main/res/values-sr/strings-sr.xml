@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+
+    <string name="lbl_setMasterPassword">Postavi glavnu lozinku</string>
+    <string name="lbl_enterMasterPassword">Prijavite se sa glavnom lozinkom.</string>
+    <string name="lbl_biometricPromptTitle">Menadžer Lozinki - Biometrija</string>
+    <string name="lbl_biometricPromptSubtitle">Za nastavak je potrebna autentifikacija.</string>
+    <string name="lbl_biometricPromptDescription">Ova aplikacija koristi biometrijsku autentifikaciju kako bi zaštitila vaše podatke.</string>
+    <string name="lbl_addFirstItem">Dodaj prvu stavku</string>
+    <string name="lbl_addNewPasswordLogin">Dodaj novu prijavu</string>
+    <string name="lbl_logIn">Korisničko ime:</string>
+    <string name="lbl_LogInPassword">Lozinka:</string>
+    <string name="lbl_summary">Opis:</string>
+    <string name="lbl_logInTag">Oznaka:</string>
+    <string name="lbl_btn_addTag">Dodaj</string>
+    <string name="lbl_addTag">Unesi novu oznaku</string>
+    <string name="lbl_confirmDelMessageSummary">Izbriši izabranu stavku?</string>
+    <string name="lbl_confirmDelTitleSummary">Izbriši stavku %s?</string>
+    <string name="lbl_confirmDelYes">Da</string>
+    <string name="lbl_confirmDelNo">Ne</string>
+    <string name="lbl_addNew2FALogin">Dodajte kodove za dvostruku\nautentifikaciju</string>
+    <string name="lbl_tagFilter">Filter oznake:</string>
+    <string name="lbl_tagFilterSelectAll">Prikaži sve</string>
+    <string name="lbl_decryptingDB">Dešifrovanje podataka...</string>
+    <string name="lbl_masterPasswordManagement">Promjena glavne lozinke</string>
+    <string name="lbl_dataManagement">Upravljanje podacima</string>
+    <string name="lbl_backUpDB">Napravi sigurnosnu kopiju</string>
+    <string name="lbl_restoreDB">Učitaj sigurnosnu kopiju</string>
+    <string name="lbl_deleteDB">Izbriši sve podatke</string>
+    <string name="lbl_confirmPopupTitle_deleteDB">Izbriši sve podatke?</string>
+    <string name="lbl_confirmPopupMessage_deleteDB">Da li ste sigurni da želite izbrisati sve podatke?</string>
+    <string name="lbl_info">O Aplikaciji</string>
+    <string name="lbl_btn_showAppInfo">Prikaži informacije</string>
+    <string name="lbl_btn_cancel">Otkaži</string>
+    <string name="lbl_defaultTag">Neodređen</string>
+    <string name="lbl_tabLogin">Prijave</string>
+    <string name="lbl_tab2fa">Dvostruka autentifikacija</string>
+    <string name="lbl_tabSettings">Podešavanje</string>
+    <string name="lbl_infoTitle">Informacije</string>
+    <string name="lbl_btn_reportIssue">Prijavi problem</string>
+    <string name="lbl_btn_supportMe">Podrži me</string>
+    <string name="lbl_description1">Upravljajte bezbjedno podacima sa 128 AES Enkripcijom.
+        \n\nMenadžer Lozinki ne koristi internet i nema reklame!
+        \n\nVaši podaci ostaju šifrovani na vašem uređaju, a možete da sačuvate ili vratite rezervne kopije po želji. Pravite rezervne kopije redovno.
+        \n\nRezervne kopije nisu sačuvane na Cloud-u. Ako ih želite na Cloud-u, morate ih ručno tamo spremiti.
+        \n\nAplikacija ne prikuplja nikakve podatke pa ni greške tokom rada. Ako primjetite problem, prijavite ga i opišite detaljno.</string>
+    <string name="lbl_description2">Ovaj projekat je open source. Možete ga pronaći na GitHub.</string>
+    <string name="lbl_description3"> Možete me podržati na https://ko-fi.com/dusko_ ako vam se sviđa.</string>
+    <string name="lbl_btn_goToGitHub">Prikaži na GitHub</string>
+    <string name="lbl_keyInfoBackup">Potrebno je da postavite novu lozinku.
+        \nOva lozinka je nezavisna od vaše glavne lozinke.
+        \nNećete moći vretiti sačuvanu sigurnosnu kopiju bez ove lozinke.</string>
+    <string name="lbl_keyInfoRestore">Unesite lozinku za vrećenje rezervne kopije.
+    \nInfo: Definisali ste je kada ste sačuvali sigurnosnu kopiju</string>
+
+    <string name="hint_addTag">Upiši novu oznaku</string>
+    <string name="hint_masterPassword1">Unesi glavnu lozinku</string>
+    <string name="hint_setMasterPassword1">Unesi novu glavnu lozinku</string>
+    <string name="hint_setMasterPassword2">Ponovi novu glavnu lozinku</string>
+    <string name="hint_getKey">Unesi lozinku</string>
+    <string name="hint_setKey">Postavi novu lozinku</string>
+    <string name="hint_confirmKey">Ponovi novu lozinku</string>
+
+    <string name="btn_signUp">Prijavi se</string>
+    <string name="btn_logIn">Uloguj se</string>
+    <string name="btn_signInWithPassword">Uloguj se s lozinkom</string>
+    <string name="btn_save">Sačuvaj</string>
+    <string name="btn_GeneratePassword">Generiši\nlozinku</string>
+    <string name="btn_changePassword">Promijeni glavnu lozinku</string>
+
+    <string name="msg_isKeyguardSecure">Sigurnost zaključanog ekrana nije omogućena u podešavanju.</string>
+    <string name="msg_checkSelfPermission">Dozvola za autentifikaciju otiska prsta nije omogućena!</string>
+    <string name="msg_authenticationError">Provjera autentičnosti otiska prsta nije aktivna na vašem uređaju!</string>
+    <string name="msg_authenticationSuccessful">Autentifikacija uspješna.</string>
+    <string name="msg_authenticationCanceledViaSignal">Autentifikacija otkazana preko signala.</string>
+    <string name="msg_authenticationCanceled">Autentifikacija otkazana.</string>
+    <string name="msg_passwordCanNotBeEmpty">Lozinka ne može biti prazna!</string>
+    <string name="msg_passwordDoNotMatch">Lozinka ne odgovara!</string>
+    <string name="msg_wrongPassword">Pogrešna lozinka. Imate još %d pokušaja!</string>
+    <string name="msg_securityIncident">Sigurnosni incident! Baza podataka obrisana!</string>
+    <string name="msg_userNameFieldRequired">Korisničko ime je obavezno!</string>
+    <string name="msg_summaryFieldRequired">Opis i najmanje prvih šest polja su obavezani.</string>
+    <string name="msg_masterPasswordChanged">Glavna lozinka je promijenjena!</string>
+    <string name="msg_decryptionFailed">Vraćanje podataka neuspiješno! Pogrešna lozinka!</string>
+    <string name="msg_restoringSeceded">Vraćanje podataka uspiješno.</string>
+    <string name="msg_backupSeceded">Rezervna kopija uspješno sačuvana.</string>
+    <string name="msg_allDataDeleted">Svi podaci izbrisani.</string>
+    <string name="msg_usernameCopiedToClipboard">Korisničko ime kopirano.</string>
+    <string name="msg_passwordCopiedToClipboard">Lozinka kopirana.</string>
+
+</resources>

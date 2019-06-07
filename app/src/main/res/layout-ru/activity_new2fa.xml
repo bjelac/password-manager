@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".views.New2faActivity">
+
+    <TextView
+        android:id="@+id/lbl_new2FA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/lbl_addNew2FALogin"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_summary"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="180dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="1."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="13dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:text="11."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="13dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:text="13."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="13dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:text="15."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="13dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:text="17."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="13dp"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionNext"/>
+
+        <TextView
+            android:id="@+id/lbl_recoveryCode18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18."
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_recoveryCode18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:maxLines="1"
+            android:imeOptions="actionDone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/btn_save"
+            android:background="@color/buttonBackground"
+            android:textColor="@color/buttonText"/>
+    </LinearLayout>
+
+</LinearLayout>

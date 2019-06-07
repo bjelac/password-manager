@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "621299876599",
+    "firebase_url": "https://password-menager.firebaseio.com",
+    "project_id": "password-menager",
+    "storage_bucket": "password-menager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621299876599:android:a67603df3551cca0",
+        "android_client_info": {
+          "package_name": "com.bjelac.passwordmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621299876599-30f6obcnc3rmb7o6baidj8trcgi8vssc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bjelac.passwordmanager",
+            "certificate_hash": "eb31f5263d0f61812a951c1bb9da84c4b687af06"
+          }
+        },
+        {
+          "client_id": "621299876599-v64u6clidtuihsd5g8q8oq6q1emrofn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bjelac.passwordmanager",
+            "certificate_hash": "52c2b570c32950225cf039dfd4618535f72063eb"
+          }
+        },
+        {
+          "client_id": "621299876599-5j3b8a3a99pk7e6jlolofbo6j5p626tj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXekeYuESwi9FDrbi_hzwpegzIctbTA2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621299876599-5j3b8a3a99pk7e6jlolofbo6j5p626tj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Password Manager</string>
+
+    <string name="lbl_setMasterPassword">Imposta la password principale</string>
+    <string name="lbl_enterMasterPassword">Accedi con la password principale.</string>
+    <string name="lbl_biometricPromptTitle">Password Manager biometrico</string>
+    <string name="lbl_biometricPromptSubtitle">L\'autenticazione è richiesta per continuare.</string>
+    <string name="lbl_biometricPromptDescription">Questa app utilizza l\'autenticazione biometrica per proteggere i tuoi dati.</string>
+    <string name="lbl_addFirstItem">Aggiungi il primo oggetto</string>
+    <string name="lbl_addNewPasswordLogin">Aggiungi nuovo accesso</string>
+    <string name="lbl_logIn">Nome utente:</string>
+    <string name="lbl_LogInPassword">Parola d\'ordine:</string>
+    <string name="lbl_summary">Sommario:</string>
+    <string name="lbl_logInTag">Etichetta:</string>
+    <string name="lbl_btn_addTag">Inserisci</string>
+    <string name="lbl_addTag">Digita il nuovo nome del tag</string>
+    <string name="lbl_confirmDelMessageSummary">Elimina l\'elemento selezionato?</string>
+    <string name="lbl_confirmDelTitleSummary">Elimina oggetto con riepilogo %s?</string>
+    <string name="lbl_confirmDelYes">Sì</string>
+    <string name="lbl_confirmDelNo">No</string>
+    <string name="lbl_addNew2FALogin">Aggiungi codici di recupero\ndell\'autenticazione a due fattori</string>
+    <string name="lbl_tagFilter">Filtro Tag:</string>
+    <string name="lbl_tagFilterSelectAll">Mostra tutto</string>
+    <string name="lbl_decryptingDB">Decrittografia del database...</string>
+    <string name="lbl_masterPasswordManagement">Gestione delle password principali</string>
+    <string name="lbl_dataManagement">Gestione dati</string>
+    <string name="lbl_backUpDB">Dati di backup</string>
+    <string name="lbl_restoreDB">Ripristinare i dati</string>
+    <string name="lbl_deleteDB">Cancella tutti i dati</string>
+    <string name="lbl_confirmPopupTitle_deleteDB">Elimina database?</string>
+    <string name="lbl_confirmPopupMessage_deleteDB">Sei sicuro di voler eliminare tutti i login e i codici di BackUp dell\'autenticazione a due fattori?</string>
+    <string name="lbl_info">Informazioni sull\'app</string>
+    <string name="lbl_btn_showAppInfo">Mostra informazioni</string>
+    <string name="lbl_btn_cancel">Annulla</string>
+    <string name="lbl_defaultTag">Imprecisato</string>
+    <string name="lbl_tabLogin">Accesso</string>
+    <string name="lbl_tab2fa">2FA</string>
+    <string name="lbl_tabSettings">Impostazioni</string>
+    <string name="lbl_infoTitle">Informazione</string>
+    <string name="lbl_btn_reportIssue">Segnala problema</string>
+    <string name="lbl_btn_supportMe">Supportami</string>
+    <string name="lbl_description1">Gestisci i tuoi dati di accesso in sicurezza con 128 crittografia AES.
+        \n\nNon c\'è bisogno di accesso a Internet! Nessuna pubblicità!
+        \n\nI tuoi dati rimangono crittografati sul tuo dispositivo e puoi salvare o ripristinare i backup come desideri. Effettua il backup dei dati di conseguenza.
+        \n\nI backup non sono archiviati su alcun servizio cloud. Se li vuoi su cloud, devi caricarli manualmente.
+        \n\nI registri delle app non sono tracciati. Quindi, se avete problemi, si prega di segnalarli. Prova a descrivere a fondo i problemi. Puoi anche segnalare problemi di traduzione qui.</string>
+    <string name="lbl_description2">Questo progetto è open source. Puoi trovarlo su GitHub.</string>
+    <string name="lbl_description3">Puoi sostenermi su https://ko-fi.com/dusko_ se ti piace.</string>
+    <string name="lbl_btn_goToGitHub">Vai a GitHub</string>
+    <string name="lbl_keyInfoBackup">Abbiamo bisogno che tu imposti una nuova password.
+        \nQuesta password è indipendente dalla tua password principale.
+        \nNon sarà possibile ripristinare il backup salvato senza questa password.</string>
+    <string name="lbl_keyInfoRestore">Fornire la password per il ripristino del backup.
+        \nInfo: È stato definito come il backup creato.</string>
+
+    <string name="hint_addTag">Nuovo nome del tag</string>
+    <string name="hint_masterPassword1">Digitare la password principale</string>
+    <string name="hint_setMasterPassword1">Digitare la nuova password principale</string>
+    <string name="hint_setMasterPassword2">Ripeti la password principale</string>
+    <string name="hint_getKey">Inserire la password</string>
+    <string name="hint_setKey">Imposta la password</string>
+    <string name="hint_confirmKey">Ripeti la password</string>
+
+    <string name="btn_signUp">Iscriviti</string>
+    <string name="btn_logIn">Accedi</string>
+    <string name="btn_signInWithPassword">Accedi con la password</string>
+    <string name="btn_save">Salvare</string>
+    <string name="btn_GeneratePassword">Genera password</string>
+    <string name="btn_changePassword">Cambia la password principale</string>
+
+    <string name="msg_isKeyguardSecure">Sicurezza schermo bloccato non abilitata in Impostazioni.</string>
+    <string name="msg_checkSelfPermission">Autorizzazione per l\'impronta digitale non abilitata!</string>
+    <string name="msg_authenticationError">L\'autenticazione tramite impronta digitale non è attiva sul tuo dispositivo!</string>
+    <string name="msg_authenticationSuccessful">Autenticazione riuscita.</string>
+    <string name="msg_authenticationCanceledViaSignal">Autenticazione Annullata tramite segnale.</string>
+    <string name="msg_authenticationCanceled">Autenticazione annullata.</string>
+    <string name="msg_passwordCanNotBeEmpty">La password non può essere vuota!</string>
+    <string name="msg_passwordDoNotMatch">La password non corrisponde</string>
+    <string name="msg_wrongPassword">Password errata. Hai lasciato %d prove!</string>
+    <string name="msg_securityIncident">Incidente di sicurezza! Eliminazione del database delle password!</string>
+    <string name="msg_userNameFieldRequired">È richiesto uno username!</string>
+    <string name="msg_summaryFieldRequired">Sono richiesti il sommario e almeno i primi sei campi.</string>
+    <string name="msg_masterPasswordChanged">La password principale è cambiata!</string>
+    <string name="msg_decryptionFailed">Ripristino dei dati fallito! Password di decrittazione errata!</string>
+    <string name="msg_restoringSeceded">Ripristino riuscito.</string>
+    <string name="msg_backupSeceded">La copia di backup è stata salvata correttamente.</string>
+    <string name="msg_allDataDeleted">Tutti i dati cancellati.</string>
+    <string name="msg_usernameCopiedToClipboard">Nome utente copiato negli appunti.</string>
+    <string name="msg_passwordCopiedToClipboard">Password copiata negli appunti.</string>
+
+</resources>

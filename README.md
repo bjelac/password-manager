@@ -9,11 +9,14 @@ There is no advertising in this app.
 
 ## Installation
 
-The easy way to install this app is over [Android Play Store](https://play.google.com/store/apps?hl=en). 
+The easy way to install this app is over [Android Play Store](https://play.google.com/store/apps/details?id=com.bjelac.passwordmanager). 
 
 You can also clone this project and build .apk with Android Studio, 
 and than copy it to your device.
 
+## Debug
+To debug with Android Studio remove comment in LoggerUtils class on line 7 in com.bjelac.passwordmanager.utils package.
+I commented logger out so no logs are written on device.
 
 ## Usage
 
@@ -25,7 +28,7 @@ If master password is given wrong five times at login screen, all app data will
 be deleted from device!
 
 After successful login, list with data will be shown.
-We can add new login data on plus button or menage existing one.
+We can add new login data on plus button or menage existing ones.
 
 It is possible to change master password in settings tab, menage backups 
 or delete all data from device. There is also button that shows app information.

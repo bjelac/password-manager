@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+
+    <string name="lbl_setMasterPassword">Legen Sie das Hauptkennwort fest</string>
+    <string name="lbl_enterMasterPassword">Loggen Sie sich mit dem Hauptkennwort ein.</string>
+    <string name="lbl_biometricPromptTitle">Password Manager Biometric</string>
+    <string name="lbl_biometricPromptSubtitle">Authentifizierung ist erforderlich, um fortzufahren.</string>
+    <string name="lbl_biometricPromptDescription">Diese App verwendet die biometrische Authentifizierung, um Ihre Daten zu schützen.</string>
+    <string name="lbl_addFirstItem">Erstes Element hinzufügen</string>
+    <string name="lbl_addNewPasswordLogin">Neuen Login hinzufügen</string>
+    <string name="lbl_logIn">Nutzername:</string>
+    <string name="lbl_LogInPassword">Kennwort:</string>
+    <string name="lbl_summary">Name:</string>
+    <string name="lbl_logInTag">Tag:</string>
+    <string name="lbl_btn_addTag">Hinzufügen</string>
+    <string name="lbl_addTag">Geben Sie einen neuen Etikett-Name ein</string>
+    <string name="lbl_confirmDelMessageSummary">Ausgewähltes Objekt löschen?</string>
+    <string name="lbl_confirmDelTitleSummary">Element \"%s\" löschen?</string>
+    <string name="lbl_confirmDelYes">Ja</string>
+    <string name="lbl_confirmDelNo">Nein</string>
+    <string name="lbl_addNew2FALogin">Fügen Sie zwei Faktor-Authentifizierungs/ \nWiederherstellungscodes hinzu</string>
+    <string name="lbl_tagFilter">Tag Filter:</string>
+    <string name="lbl_tagFilterSelectAll">Zeige alles</string>
+    <string name="lbl_decryptingDB">Datenbank entschlüsseln...</string>
+    <string name="lbl_masterPasswordManagement">Hauptkennwort Verwaltung</string>
+    <string name="lbl_dataManagement">Datenmanagement</string>
+    <string name="lbl_backUpDB">Daten Backup erstellen</string>
+    <string name="lbl_restoreDB">Daten wiederherstellen</string>
+    <string name="lbl_deleteDB">Alle Daten löschen</string>
+    <string name="lbl_confirmPopupTitle_deleteDB">Datenbank löschen?</string>
+    <string name="lbl_confirmPopupMessage_deleteDB">Möchten Sie wirklich alle Logins und 2FA-Sicherungscodes löschen?</string>
+    <string name="lbl_info">Über App</string>
+    <string name="lbl_btn_showAppInfo">Informationen anzeigen</string>
+    <string name="lbl_btn_cancel">Abbrechen</string>
+    <string name="lbl_defaultTag">Keine</string>
+    <string name="lbl_tabLogin">Login Daten</string>
+    <string name="lbl_tab2fa">2FA</string>
+    <string name="lbl_tabSettings">Einstellungen</string>
+    <string name="lbl_infoTitle">Informationen</string>
+    <string name="lbl_btn_reportIssue">Probleme Melden</string>
+    <string name="lbl_btn_supportMe">Unterstütze mich</string>
+    <string name="lbl_description1">Verwalten Sie Ihre Anmeldedaten sicher mit 128 AES-Verschlüsselung.
+        \n\nEs ist kein Internetzugang erforderlich! KEINE Werbung!
+        \n\nIhre Daten bleiben auf Ihrem Gerät verschlüsselt, und Sie können Ihre Backups beliebig speichern oder wiederherstellen. Machen Sie regelmäßig Backups.
+        \n\nBackups werden nicht in der Cloud gespeichert. Wenn Sie sie in der Cloud speichern möchten, müssen Sie sie dort manuell speichern.
+        \n\nApp-Protokolle werden nicht verfolgt. Wenn Sie Probleme haben, melden Sie diese bitte. Senden Sie dabei alle Schritte zur Reproduktion mit.</string>
+    <string name="lbl_description2">Dieses Projekt ist Open Source. Sie können es auf GitHub finden.</string>
+    <string name="lbl_description3">Sie können mich unter https://ko-fi.com/dusko_ unterstützen, wenn es Ihnen gefällt.</string>
+    <string name="lbl_btn_goToGitHub">Gehe zu GitHub</string>
+    <string name="lbl_keyInfoBackup">Sie müssen ein neues Kennwort festlegen, das für die Wiederherstellung des generierten Backups verwendet wird.
+        \nDieses Kennwort ist von deinem Hauptkennwort unabhängig.
+        \Sie können erstellte Backups ohne dieses Kennwort nicht wiederherstellen.</string>
+    <string name="lbl_keyInfoRestore">Geben Sie das Kennwort zum Wiederherstellen der Backup ein.
+        \nInfo: Sie haben es beim Erstellen der Backup definiert.</string>
+
+    <string name="hint_addTag">Etikett-Name</string>
+    <string name="hint_masterPassword1">Geben Sie das Hauptkennwort ein</string>
+    <string name="hint_setMasterPassword1">Geben Sie ein neues Hauptkennwort ein</string>
+    <string name="hint_setMasterPassword2">Wiederholen Sie das Hauptkennwort</string>
+    <string name="hint_getKey">Kennwort eingeben</string>
+    <string name="hint_setKey">Geben Sie ein neues Kennwort ein</string>
+    <string name="hint_confirmKey">Wiederholen Sie das Kennwort</string>
+
+    <string name="btn_signUp">Anmelden</string>
+    <string name="btn_logIn">Einloggen</string>
+    <string name="btn_signInWithPassword">Mit Kennwort anmelden</string>
+    <string name="btn_save">Speichern</string>
+    <string name="btn_GeneratePassword">Zufallskennwort\ngenerieren</string>
+    <string name="btn_changePassword">Hauptkennwort Ändern</string>
+
+    <string name="msg_isKeyguardSecure">Bildschirmsperre in den Einstellungen nicht aktiviert.</string>
+    <string name="msg_checkSelfPermission">Berechtigung zur Authentifizierung per Fingerabdruck nicht aktiviert!</string>
+    <string name="msg_authenticationError">Die Authentifizierung per Fingerabdruck ist auf Ihrem Gerät nicht aktiv!</string>
+    <string name="msg_authenticationSuccessful">Authentifizierung erfolgreich.</string>
+    <string name="msg_authenticationCanceledViaSignal">Authentifizierung über Signal abgebrochen.</string>
+    <string name="msg_authenticationCanceled">Authentifizierung abgebrochen.</string>
+    <string name="msg_passwordCanNotBeEmpty">Kennwort darf nicht leer sein!</string>
+    <string name="msg_passwordDoNotMatch">Kennwort stimmt nicht überein!</string>
+    <string name="msg_wrongPassword">Falsches Kennwort. Du hast noch %d Versuche!</string>
+    <string name="msg_securityIncident">Sicherheitsvorfall! Kennwort Datenbank gelöscht!</string>
+    <string name="msg_userNameFieldRequired">Ein Benutzername ist erforderlich!</string>
+    <string name="msg_summaryFieldRequired">Name und mindestens die ersten sechs Felder sind erforderlich.</string>
+    <string name="msg_masterPasswordChanged">Hauptkennwort geändert!</string>
+    <string name="msg_decryptionFailed">Datenwiederherstellung fehlgeschlagen! Falsches Entschlüsselungskennwort!</string>
+    <string name="msg_restoringSeceded">Wiederherstellung erfolgreich.</string>
+    <string name="msg_backupSeceded">Backup wurde erfolgreich gespeichert.</string>
+    <string name="msg_allDataDeleted">Alle Daten gelöscht.</string>
+    <string name="msg_usernameCopiedToClipboard">Benutzername in die Zwischenablage kopiert.</string>
+    <string name="msg_passwordCopiedToClipboard">Kennwort in die Zwischenablage kopiert.</string>
+
+</resources>

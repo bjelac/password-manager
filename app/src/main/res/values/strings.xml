@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Password Manager</string>
+
+    <string name="lbl_setMasterPassword">Set Master Password</string>
+    <string name="lbl_enterMasterPassword">Login with master password.</string>
+    <string name="lbl_biometricPromptTitle">Password Manager Biometric</string>
+    <string name="lbl_biometricPromptSubtitle">Authentication is required to continue.</string>
+    <string name="lbl_biometricPromptDescription">This app uses biometric authentication to protect your data.</string>
+    <string name="lbl_addFirstItem">Add First Item</string>
+    <string name="lbl_addNewPasswordLogin">Add new login</string>
+    <string name="lbl_logIn">Username:</string>
+    <string name="lbl_LogInPassword">Password:</string>
+    <string name="lbl_summary">Summary:</string>
+    <string name="lbl_logInTag">Tag:</string>
+    <string name="lbl_btn_addTag">Add</string>
+    <string name="lbl_addTag">Type new Tag name</string>
+    <string name="lbl_confirmDelMessageSummary">Delete selected item?</string>
+    <string name="lbl_confirmDelTitleSummary">Delete item with summary %s?</string>
+    <string name="lbl_confirmDelYes">Yes</string>
+    <string name="lbl_confirmDelNo">No</string>
+    <string name="lbl_addNew2FALogin">Add two factor authentication \nrecovery codes</string>
+    <string name="lbl_tagFilter">Tag filter:</string>
+    <string name="lbl_tagFilterSelectAll">Show all</string>
+    <string name="lbl_decryptingDB">Decrypting database...</string>
+    <string name="lbl_masterPasswordManagement">Master Password Management</string>
+    <string name="lbl_dataManagement">Data Management</string>
+    <string name="lbl_backUpDB">BackUp Data</string>
+    <string name="lbl_restoreDB">Restore Data</string>
+    <string name="lbl_deleteDB">Erase all data</string>
+    <string name="lbl_confirmPopupTitle_deleteDB">Delete database?</string>
+    <string name="lbl_confirmPopupMessage_deleteDB">Are you sure you want to delete all logins and Two-factor authentication BackUp codes?</string>
+    <string name="lbl_info">About App</string>
+    <string name="lbl_btn_showAppInfo">Show information</string>
+    <string name="lbl_btn_cancel">Cancel</string>
+    <string name="lbl_defaultTag">None</string>
+    <string name="lbl_tabLogin">Login</string>
+    <string name="lbl_tab2fa">Two-factor \nauthentication</string>
+    <string name="lbl_tabSettings">Settings</string>
+    <string name="lbl_infoTitle">Information</string>
+    <string name="lbl_btn_reportIssue">Report Issue</string>
+    <string name="lbl_btn_supportMe">Support Me</string>
+    <string name="lbl_description1">Menage your login data safely with 128 AES Encryption.
+        \n\nThere is NO internet access needed! NO Ads!
+        \n\nYour data stays encrypted on your device, and you can save or restore your backups as you wish. Please back up your data accordingly.
+        \nBackups are not stored on any cloud service. If you want them on cloud, you need to upload them manually.
+        \n\nApp logs are not tracked. So if you have any issues, please report them. Try to describe issues thoroughly.
+    </string>
+    <string name="lbl_description2">This project is open source. You can find it on GitHub.</string>
+    <string name="lbl_description3">You can support me on https://ko-fi.com/dusko_ if you like it.</string>
+    <string name="lbl_btn_goToGitHub">Go to GitHub</string>
+    <string name="lbl_keyInfoBackup">We need you to set a new password witch will be used for restoring generated backup.
+        \nThis password is independent of your main password.
+        \nYou will not be able to restore saved backup without this password.</string>
+    <string name="lbl_keyInfoRestore">Provide password for restoring backup.\nInfo: You have defined it as you created backup.</string>
+
+    <string name="hint_addTag">New Tag name</string>
+    <string name="hint_masterPassword1">Type master password</string>
+    <string name="hint_setMasterPassword1">Type new master password</string>
+    <string name="hint_setMasterPassword2">Repeat master password</string>
+    <string name="hint_getKey">Enter password</string>
+    <string name="hint_setKey">Set password</string>
+    <string name="hint_confirmKey">Repeat password</string>
+
+    <string name="btn_signUp">Sign Up</string>
+    <string name="btn_logIn">Log in</string>
+    <string name="btn_signInWithPassword">Sign in with password</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_GeneratePassword">Generate Password</string>
+    <string name="btn_changePassword">Change Master Password</string>
+
+    <string name="msg_isKeyguardSecure">Lock screen security not enabled in Settings.</string>
+    <string name="msg_checkSelfPermission">Fingerprint authentication permission not enabled!</string>
+    <string name="msg_authenticationError">Fingerprint authentication is not active on your device!</string>
+    <string name="msg_authenticationSuccessful">Authentication Successful.</string>
+    <string name="msg_authenticationCanceledViaSignal">Authentication Cancelled via signal.</string>
+    <string name="msg_authenticationCanceled">Authentication Cancelled.</string>
+    <string name="msg_passwordCanNotBeEmpty">Password can\'t be empty!</string>
+    <string name="msg_passwordDoNotMatch">Password don\'t match!</string>
+    <string name="msg_wrongPassword">Wrong Password. You have %d trials left!</string>
+    <string name="msg_securityIncident">Security incident! Dropping password database!</string>
+    <string name="msg_userNameFieldRequired">Username is required!</string>
+    <string name="msg_summaryFieldRequired">Summary and at least first six fields are required.</string>
+    <string name="msg_masterPasswordChanged">Master password changed!</string>
+    <string name="msg_decryptionFailed">Restoring data failed! Wrong decryption password!</string>
+    <string name="msg_restoringSeceded">Restoring successful.</string>
+    <string name="msg_backupSeceded">Backup successful.</string>
+    <string name="msg_allDataDeleted">All data deleted.</string>
+    <string name="msg_usernameCopiedToClipboard">Username copied to clipboard.</string>
+    <string name="msg_passwordCopiedToClipboard">Password copied to clipboard.</string>
+
+</resources>

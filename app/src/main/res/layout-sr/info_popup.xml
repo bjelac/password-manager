@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/infoText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="601dp"
+        android:text="@string/lbl_description1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_reportIssue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/lbl_btn_reportIssue"
+            android:textColor="@color/buttonText"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/infoText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="601dp"
+        android:text="@string/lbl_description2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_goToGitHub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/lbl_btn_goToGitHub"
+            android:textColor="@color/buttonText"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/infoText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="601dp"
+        android:text="@string/lbl_description3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/btn_supportMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/lbl_btn_supportMe"
+            android:textColor="@color/buttonText"/>
+    </LinearLayout>
+</LinearLayout>

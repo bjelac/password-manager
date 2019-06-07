@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Password Manager</string>
+
+    <string name="lbl_setMasterPassword">Définir le mot de passe principal</string>
+    <string name="lbl_enterMasterPassword">Connexion avec mot de passe principal.</string>
+    <string name="lbl_biometricPromptTitle">Gestionnaire de mots de passe biométrique</string>
+    <string name="lbl_biometricPromptSubtitle">L\'authentification est requise pour continuer.</string>
+    <string name="lbl_biometricPromptDescription">Cette application utilise l\'authentification biométrique pour protéger vos données.</string>
+    <string name="lbl_addFirstItem">Ajouter le premier élément</string>
+    <string name="lbl_addNewPasswordLogin">Ajouter un nouveau login</string>
+    <string name="lbl_logIn">Nom d\'utilisateur:</string>
+    <string name="lbl_LogInPassword">Mot de passe:</string>
+    <string name="lbl_summary">Résumé:</string>
+    <string name="lbl_logInTag">Étiquette:</string>
+    <string name="lbl_btn_addTag">Ajouter</string>
+    <string name="lbl_addTag">Tapez le nouveau nom de tag</string>
+    <string name="lbl_confirmDelMessageSummary">Supprimer l\'élément sélectionné?</string>
+    <string name="lbl_confirmDelTitleSummary">Supprimer l\'élément avec résumé %s?</string>
+    <string name="lbl_confirmDelYes">Oui</string>
+    <string name="lbl_confirmDelNo">Non</string>
+    <string name="lbl_addNew2FALogin">Ajouter des codes de récupération\nd\'authentification à deux facteurs</string>
+    <string name="lbl_tagFilter">Filtre de tag:</string>
+    <string name="lbl_tagFilterSelectAll">Montre tout</string>
+    <string name="lbl_decryptingDB">Déchiffrement de la \nbase de données...</string>
+    <string name="lbl_masterPasswordManagement">Gestion des mots de passe principale</string>
+    <string name="lbl_dataManagement">Gestion de données</string>
+    <string name="lbl_backUpDB">Données de sauvegarde</string>
+    <string name="lbl_restoreDB">Restaurer les données</string>
+    <string name="lbl_deleteDB">Effacer toutes les données</string>
+    <string name="lbl_confirmPopupTitle_deleteDB">Supprimer la base de données?</string>
+    <string name="lbl_confirmPopupMessage_deleteDB">Êtes-vous sûr de vouloir supprimer toutes les connexions et les codes de sauvegarde avec authentification à deux facteurs?</string>
+    <string name="lbl_info">À propos de l\'application</string>
+    <string name="lbl_btn_showAppInfo">Montrer l\'information</string>
+    <string name="lbl_btn_cancel">Annuler</string>
+    <string name="lbl_defaultTag">Aucun</string>
+    <string name="lbl_tabLogin">Le login</string>
+    <string name="lbl_tab2fa">2FA</string>
+    <string name="lbl_tabSettings">Réglages</string>
+    <string name="lbl_infoTitle">Information</string>
+    <string name="lbl_btn_reportIssue">Signaler un problème</string>
+    <string name="lbl_btn_supportMe">Me soutenir</string>
+    <string name="lbl_description1">Gérez vos données de connexion en toute sécurité avec le cryptage 128 AES.
+        \n\nIl n\'y a pas d\'accès Internet nécessaire! Pas de pubs!
+        \n\nVos données restent cryptées sur votre appareil et vous pouvez sauvegarder ou restaurer vos sauvegardes à votre guise. Faites des sauvegardes régulièrement
+        \n\nLes sauvegardes ne sont pas enregistrées sur le cloud. Si vous les voulez sur le Cloud, vous devez les enregistrer manuellement.
+        \n\nLes journaux d\'application ne sont pas suivis. Donc, si vous avez des problèmes, merci de les signaler. Essayez de décrire les problèmes à fond. Vous pouvez également signaler des problèmes de traduction ici.
+    </string>
+    <string name="lbl_description2">Ce projet est open source. Vous pouvez le trouver sur GitHub.</string>
+    <string name="lbl_description3">Vous pouvez me soutenir sur https://ko-fi.com/dusko_ si vous l\'aimez.</string>
+    <string name="lbl_btn_goToGitHub">Allez sur GitHub</string>
+    <string name="lbl_keyInfoBackup">Nous avons besoin de vous pour définir un nouveau mot de passe.
+        \nCe mot de passe est indépendant de votre mot de passe principal.
+        \nVous ne pourrez pas restaurer la sauvegarde sauvegardée sans ce mot de passe.</string>
+    <string name="lbl_keyInfoRestore">Fournissez un mot de passe pour la restauration de la sauvegarde.
+        \nInfo: Vous l\'avez défini comme vous avez créé une sauvegarde.</string>
+
+    <string name="hint_addTag">Nom de tag</string>
+    <string name="hint_masterPassword1">Tapez le mot de passe principal</string>
+    <string name="hint_setMasterPassword1">Tapez le nouveau mot de passe principal</string>
+    <string name="hint_setMasterPassword2">Répéter le mot de passe principal</string>
+    <string name="hint_getKey">Entrez le mot de passe</string>
+    <string name="hint_setKey">Définir le mot de passe</string>
+    <string name="hint_confirmKey">Répéter le mot de passe</string>
+
+    <string name="btn_signUp">S\'inscrire</string>
+    <string name="btn_logIn">S\'identifier</string>
+    <string name="btn_signInWithPassword">Se connecter avec mot de passe</string>
+    <string name="btn_save">Sauvegarder</string>
+    <string name="btn_GeneratePassword">Créer un mot\nde passe</string>
+    <string name="btn_changePassword">Changer le mot de passe principal</string>
+
+    <string name="msg_isKeyguardSecure">Verrouillage de la sécurité de l\'écran non activé dans les paramètres.</string>
+    <string name="msg_checkSelfPermission">La permission d\'authentification d\'empreinte digitale n\'est pas activée!</string>
+    <string name="msg_authenticationError">L\'authentification par empreinte digitale n\'est pas active sur votre appareil!</string>
+    <string name="msg_authenticationSuccessful">Authentification réussie.</string>
+    <string name="msg_authenticationCanceledViaSignal">Authentification annulée via le signal.</string>
+    <string name="msg_authenticationCanceled">Authentification annulée.</string>
+    <string name="msg_passwordCanNotBeEmpty">Le mot de passe ne peut pas être vide!</string>
+    <string name="msg_passwordDoNotMatch">Le mot de passe ne correspond pas!</string>
+    <string name="msg_wrongPassword">Mauvais mot de passe. Il vous reste %d essais!</string>
+    <string name="msg_securityIncident">Incident de sécurité! Suppression de la base de données de mots de passe!</string>
+    <string name="msg_userNameFieldRequired">Nom d\'utilisateur est nécessaire!</string>
+    <string name="msg_summaryFieldRequired">Résumé et au moins six premiers champs sont obligatoires.</string>
+    <string name="msg_masterPasswordChanged">Le mot de passe principal a changé!</string>
+    <string name="msg_decryptionFailed">La restauration des données a échoué! Mauvais mot de passe de décryptage!</string>
+    <string name="msg_restoringSeceded">Restauration réussie.</string>
+    <string name="msg_backupSeceded">La copie de sauvegarde a été enregistrée avec succès.</string>
+    <string name="msg_allDataDeleted">Toutes les données supprimées.</string>
+    <string name="msg_usernameCopiedToClipboard">Nom d\'utilisateur copié dans le presse-papier.</string>
+    <string name="msg_passwordCopiedToClipboard">Mot de passe copié dans le presse papier.</string>
+
+
+</resources>
