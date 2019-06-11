@@ -69,7 +69,6 @@
     <string name="btn_changePassword">Promijeni glavnu lozinku</string>
 
     <string name="msg_isKeyguardSecure">Sigurnost zaključanog ekrana nije omogućena u podešavanju.</string>
-    <string name="msg_checkSelfPermission">Dozvola za autentifikaciju otiska prsta nije omogućena!</string>
     <string name="msg_authenticationError">Provjera autentičnosti otiska prsta nije aktivna na vašem uređaju!</string>
     <string name="msg_authenticationSuccessful">Autentifikacija uspješna.</string>
     <string name="msg_authenticationCanceledViaSignal">Autentifikacija otkazana preko signala.</string>

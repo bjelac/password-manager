@@ -70,7 +70,6 @@
     <string name="btn_changePassword">Change Master Password</string>
 
     <string name="msg_isKeyguardSecure">Lock screen security not enabled in Settings.</string>
-    <string name="msg_checkSelfPermission">Fingerprint authentication permission not enabled!</string>
     <string name="msg_authenticationError">Fingerprint authentication is not active on your device!</string>
     <string name="msg_authenticationSuccessful">Authentication Successful.</string>
     <string name="msg_authenticationCanceledViaSignal">Authentication Cancelled via signal.</string>

@@ -70,7 +70,6 @@
     <string name="btn_changePassword">Cambia la password principale</string>
 
     <string name="msg_isKeyguardSecure">Sicurezza schermo bloccato non abilitata in Impostazioni.</string>
-    <string name="msg_checkSelfPermission">Autorizzazione per l\'impronta digitale non abilitata!</string>
     <string name="msg_authenticationError">L\'autenticazione tramite impronta digitale non è attiva sul tuo dispositivo!</string>
     <string name="msg_authenticationSuccessful">Autenticazione riuscita.</string>
     <string name="msg_authenticationCanceledViaSignal">Autenticazione Annullata tramite segnale.</string>
