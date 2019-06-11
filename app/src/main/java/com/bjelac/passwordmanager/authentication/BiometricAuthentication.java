@@ -41,7 +41,6 @@ public class BiometricAuthentication implements IBiometricAuthentication {
                 Manifest.permission.USE_BIOMETRIC) !=
                 PackageManager.PERMISSION_GRANTED) {
 
-            NotifyUser.notify(mainActivity, mainActivity.getResources().getString(R.string.msg_checkSelfPermission));
             LoggerUtils.logD(TAG, "Fingerprint authentication permission not enabled.");
             return false;
         }

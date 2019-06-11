@@ -71,7 +71,6 @@
     <string name="btn_changePassword">Changer le mot de passe principal</string>
 
     <string name="msg_isKeyguardSecure">Verrouillage de la sécurité de l\'écran non activé dans les paramètres.</string>
-    <string name="msg_checkSelfPermission">La permission d\'authentification d\'empreinte digitale n\'est pas activée!</string>
     <string name="msg_authenticationError">L\'authentification par empreinte digitale n\'est pas active sur votre appareil!</string>
     <string name="msg_authenticationSuccessful">Authentification réussie.</string>
     <string name="msg_authenticationCanceledViaSignal">Authentification annulée via le signal.</string>

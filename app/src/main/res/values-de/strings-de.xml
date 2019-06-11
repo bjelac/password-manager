@@ -69,7 +69,6 @@
     <string name="btn_changePassword">Hauptkennwort Ändern</string>
 
     <string name="msg_isKeyguardSecure">Bildschirmsperre in den Einstellungen nicht aktiviert.</string>
-    <string name="msg_checkSelfPermission">Berechtigung zur Authentifizierung per Fingerabdruck nicht aktiviert!</string>
     <string name="msg_authenticationError">Die Authentifizierung per Fingerabdruck ist auf Ihrem Gerät nicht aktiv!</string>
     <string name="msg_authenticationSuccessful">Authentifizierung erfolgreich.</string>
     <string name="msg_authenticationCanceledViaSignal">Authentifizierung über Signal abgebrochen.</string>

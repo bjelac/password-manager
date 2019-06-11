@@ -70,7 +70,6 @@
     <string name="btn_changePassword">Изменить мастер-пароль</string>
 
     <string name="msg_isKeyguardSecure">Защита экрана не включена в настройках.</string>
-    <string name="msg_checkSelfPermission">Разрешение аутентификации по отпечатку пальца не включено!</string>
     <string name="msg_authenticationError">Аутентификация по отпечатку пальца не активна на вашем устройстве!</string>
     <string name="msg_authenticationSuccessful">Аутентификация прошла успешно.</string>
     <string name="msg_authenticationCanceledViaSignal">Аутентификация отменена с помощью сигнала.</string>

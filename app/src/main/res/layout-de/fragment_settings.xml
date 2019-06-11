@@ -123,7 +123,7 @@
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
         app:contentPadding="10dp"
-        app:contentPaddingBottom="0dp">
+        app:contentPaddingBottom="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
