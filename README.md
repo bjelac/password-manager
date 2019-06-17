@@ -12,10 +12,11 @@ There is no advertising in this app.
 The easy way to install this app is over [Android Play Store](https://play.google.com/store/apps/details?id=com.bjelac.passwordmanager). 
 
 You can also clone this project and build .apk with Android Studio, 
-and than copy it to your device.
+and than copy it to your device. Read Debug.
 
 ## Debug
-To debug with Android Studio remove comment in LoggerUtils class on line 7 in com.bjelac.passwordmanager.utils package.
+- Go to File/Settings/Build, Execution, Deployment/Instant Run and disable Instant Run.
+- Remove comment in LoggerUtils class on line 7 in com.bjelac.passwordmanager.utils package.
 I commented logger out so no logs are written on device.
 
 ## Usage
