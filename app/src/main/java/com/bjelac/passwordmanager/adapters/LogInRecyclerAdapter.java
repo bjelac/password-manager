@@ -46,8 +46,11 @@ public class LogInRecyclerAdapter extends RecyclerView.Adapter<LogInRecyclerAdap
         viewHolder.summary.setText(loginModel.getSummary());
         viewHolder.logIn.setText(loginModel.getLogIn());
         viewHolder.password.setText(loginModel.getPassword());
-        viewHolder.tag.setText(loginModel.getTag().equals(ApplicationContextProvider.getContext().getResources().getString(R.string.lbl_defaultTag)) ? "" : loginModel.getTag());
-
+        if (loginModel.getTag() != null && !loginModel.getTag().equals(ApplicationContextProvider.getContext().getResources().getString(R.string.lbl_defaultTag))) {
+            viewHolder.tag.setText(loginModel.getTag());
+        } else {
+            viewHolder.tag.setText("");
+        }
         viewHolder.logIn.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
